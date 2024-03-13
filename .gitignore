@@ -1,0 +1,4 @@
+.venv
+tea_grades_dataset/
+yolov8n-cls.pt
+yolov8n.pt

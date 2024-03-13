@@ -4,4 +4,4 @@ from ultralytics import YOLO
 model = YOLO('yolov8n-cls.pt')  # load a pretrained model (recommended for training)
 
 # train the model
-model.train(data='/home/warrior/Development/imageclassificationtutorial/tea_grades_dataset', epochs=20, imgsz=64)
+model.train(data='/home/warrior/Development/tea-grading-api-and-model/tea_grades_dataset', epochs=20, imgsz=64)
